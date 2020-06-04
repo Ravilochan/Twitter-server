@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=dev nodemon --exec babel-node src/index.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/node": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "eslint": "^7.1.0",
+    "faker": "^4.1.0",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.14.2",
+    "cross-env": "^7.0.2",
+    "express": "^4.17.1",
+    "graphql": "^15.0.0",
+    "mongoose": "^5.9.17"
+  }
+}
