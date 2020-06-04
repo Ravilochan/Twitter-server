@@ -1401,6 +1401,14 @@ array-unique@^0.3.2:
   resolved "https://registry.yarnpkg.com/array-unique/-/array-unique-0.3.2.tgz#a894b75d4bc4f6cd679ef3244a9fd8f46ae2d428"
   integrity sha1-qJS3XUvE9s1nnvMkSp/Y9Gri1Cg=
 
+assert-err@^1.0.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/assert-err/-/assert-err-1.1.0.tgz#c05062799a1d97d3f5eaa258e3242aab499fc8ef"
+  integrity sha1-wFBieZodl9P16qJY4yQqq0mfyO8=
+  dependencies:
+    escape-string-regexp "^1.0.5"
+    object-assign "^4.1.0"
+
 assign-symbols@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/assign-symbols/-/assign-symbols-1.0.0.tgz#59667f41fadd4f20ccbc2bb96b8d4f7f78ec0367"
@@ -2592,6 +2600,13 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.2:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.4.tgz#2256bde14d3632958c465ebc96dc467ca07a29fb"
   integrity sha512-WjKPNJF79dtJAVniUlGGWHYGz2jWxT6VhN/4m1NdkbZ2nOsEF+cI1Edgql5zCRhs/VsQYRvrXctxktVXZUkixw==
 
+graphql-date@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/graphql-date/-/graphql-date-1.0.3.tgz#31ce05ae40ed8c8ceb040364060109771e712e91"
+  integrity sha1-Mc4FrkDtjIzrBANkBgEJdx5xLpE=
+  dependencies:
+    assert-err "^1.0.0"
+
 graphql-extensions@^0.12.2:
   version "0.12.2"
   resolved "https://registry.yarnpkg.com/graphql-extensions/-/graphql-extensions-0.12.2.tgz#f22210e812939b7caa2127589f30e6a1c671540f"
@@ -3502,7 +3517,7 @@ normalize-url@^4.1.0:
   resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-4.5.0.tgz#453354087e6ca96957bd8f5baf753f5982142129"
   integrity sha512-2s47yzUxdexf1OhyRi4Em83iQk0aPvwTddtFz4hnSSw9dCEsLEGf6SwIO8ss/19S9iBb5sJaOuTvTGDeZI00BQ==
 
-object-assign@^4:
+object-assign@^4, object-assign@^4.1.0:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
   integrity sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=
