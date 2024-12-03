@@ -23,6 +23,6 @@
     "express": "^4.20.0",
     "graphql": "^15.0.0",
     "graphql-date": "^1.0.3",
-    "mongoose": "^5.13.20"
+    "mongoose": "^8.8.3"
   }
 }
